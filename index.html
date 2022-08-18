@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#008060',
+                secondary: '#004C3F',
+                skin: '#FBF7ED'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="skin bg-skin">
+        <nav class="flex justify-between pt-3 w-11/12 mx-auto">
+            <div class="left w-36">
+                <img src="./images/logo.png" alt="">
+            </div>
+
+            <div class="right flex items-center">
+                <a class="text-xl mr-3" href="#">Login</a>
+                <p class="text-xl"><i class="fa-solid fa-bars"></i></p>
+            </div>
+        </nav>
+
+        <div class="hero w-11/12 mx-auto">
+            <div class="mt-4">
+                <h1 class="text-3xl font-bold text-secondary mt-14">The easiest way to sell online in India</h1>
+                <p class="my-8 text-lg">Try one of the most powerful platforms on the market for free. No technical knowledge needed.</p>
+
+                <form class="flex flex-col gap-y-2" action="">
+                    <input class="border rounded-sm py-3 px-2 border-black" placeholder="Enter your email address" type="text">
+                    <input class="font-semibold border bg-primary py-3 text-white rounded-md" type="submit" value="Try for free">
+                </form>
+
+                <p class="text-xs mt-5">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
+
+            </div>
+
+            <div>
+                <img src="./images/hero/one.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="back bg-primary">
+        <div class="business w-11/12 mx-auto">
+            <div class="top py-16">
+                <h1 class="text-3xl text-white font-semibold">Bring your business online</h1>
+                <p class="my-7 text-white">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
+                <a class="font-semibold text-white" href="#">Explore more examples <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="blogs flex flex-wrap justify-evenly gap-y-14">
+                <div class="w-2/5 text-lg">
+                    <img src="./images/business/one.jpg" alt="">
+                    <div class="mt-5 text-white">
+                        <a class="font-bold hover:underline" href="#">FOOD & DRINK</a>
+                        <p class="">Blue Tokai</p>
+                    </div>
+                </div>
+
+                <div class="w-2/5 text-lg">
+                    <img src="./images/business/two.jpg" alt="">
+                    <div class="mt-5 text-white">
+                        <a class="font-bold hover:underline" href="#">JEWELRY</a>
+                        <p class="">Quirksmith</p>
+                    </div>
+                </div>
+
+                <div class="w-2/5 text-lg">
+                    <img src="./images/business/three.jpg" alt="">
+                    <div class="mt-5 text-white">
+                        <a class="font-bold hover:underline" href="#">ELECTRONICS</a>
+                        <p class="">Crossbeats</p>
+                    </div>
+                </div>
+
+                <div class="w-2/5 text-lg">
+                    <img src="./images/business/four.jpg" alt="">
+                    <div class="mt-5 text-white">
+                        <a class="font-bold hover:underline" href="#">BEAUTY</a>
+                        <p class="">Macaffeine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
